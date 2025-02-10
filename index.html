@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas API Example</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="400" style="border:1px solid #000;"></canvas>
+
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d'); // Get 2D rendering context
+
+        // Fill Rectangle
+ctx.fillStyle = "blue";
+ctx.fillRect(50, 50, 150, 100); // (x, y, width, height)
+
+// Stroke Rectangle (Outline)
+ctx.strokeStyle = "red";
+ctx.lineWidth = 4;
+ctx.strokeRect(220, 50, 150, 100);
+
+    </script>
+</body>
+</html>
