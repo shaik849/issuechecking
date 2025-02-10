@@ -11,7 +11,11 @@ const promise = new Promise(function(resolve, reject) {
 });
 
 const promise1 = new Promise(function(resolve, reject) {
+<<<<<<< Updated upstream
     let val = false;
+=======
+    let val = "sana";
+>>>>>>> Stashed changes
     if(val){
         resolve(val);
     }
