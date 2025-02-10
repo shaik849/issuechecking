@@ -11,7 +11,7 @@ const promise = new Promise(function(resolve, reject) {
 });
 
 const promise1 = new Promise(function(resolve, reject) {
-    let val = true;
+    let val = false;
     if(val){
         resolve(val);
     }
